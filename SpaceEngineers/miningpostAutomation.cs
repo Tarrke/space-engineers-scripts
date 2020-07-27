@@ -36,7 +36,7 @@ public void Save()
 }
 
 // Some Global Vars
-bool shouldRun = true;
+bool shouldRun = false;
 
 public void Main(string argument, UpdateType updateSource)
 {
@@ -53,6 +53,7 @@ public void Main(string argument, UpdateType updateSource)
     // ~~~~~~ Configuration ~~~~~~ //
 
     Echo ("Mining Operations");
+    
     // List<IMyTerminalBlock> blocks = new List<IMyTerminalBlock>();
     // GridTerminalSystem.GetBlocks(blocks);
 
